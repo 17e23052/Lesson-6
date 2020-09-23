@@ -1,4 +1,4 @@
-import random
-options=["red", "green", "blue"]
-selection=random.choice(options)
-print(selection)
+#Random number generator
+from random import randrange
+my_number = randrange(0, 10, 2)
+print(my_number)
